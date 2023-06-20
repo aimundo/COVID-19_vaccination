@@ -2,7 +2,7 @@ Differences in COVID-19 vaccination in the province of Ontario across Health Reg
 ====================================================================================================================================
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/) [![License: CC0-1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![License: MIT](https://img.shields.io/badge/License%20Parts-MIT-lightgrey)](https://opensource.org/licenses/MIT)
+
 
 
 This repository contains all the code and data used to create the manuscript, which is available as a preprint here. This paper explores COVID-19 vaccination in the province of Ontario, Canada.

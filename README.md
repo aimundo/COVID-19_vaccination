@@ -48,10 +48,11 @@ The repository also contains directories `references` for references used in the
 
 This entire repository is licensed under a CC BY 4.0 License, which allows reuse with attribution. However, certain files are released under the CC0 1.0 public domain dedication. The files indicated below are dual licensed under CC BY 4.0 and CC0 1.0:
 
-- `02-Challenges.Rmd`
-- `03-GAM Theory.Rmd`
-- `04-Longitudinal analysis with GAMs`
-- `07-Appendix.Rmd`
+- `01-background.qmd`
+- `02-methods.qmd`
+- `03-results.qmd`
+- `04-discussion.qmd`
+- `05-conclusion.qmd`
 
 All other files are under CC BY 4.0.
 

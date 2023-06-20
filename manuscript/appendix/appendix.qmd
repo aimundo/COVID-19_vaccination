@@ -57,12 +57,12 @@ thm4<-scale_fill_scico_d(palette="tokyo",begin=0.3, end=0.8, direction = -1, aes
 thm5<-scale_fill_scico_d(palette="imola",begin=0.3, end=0.8, direction = -1, aesthetics = c("colour","fill"))
 
 #call scripts for data preparation and regression
-source(here::here("code","data_preparation_May_08.R"))
+source(here::here("code","data_preparation.R"))
 source(here::here("code","raking.R"))
 source(here::here("code","regression.R"))
 ```
 
-This document provides details on assessing the socio-economic information from the clean survey dataset, and how it compared to the Census Data for ontario. At the end, it also provides information about the corrections implemented into the data. The variables examined were: race/ethnicity, age groups, income, and population by Health Region. The computations are performed in the `clean_dataset.csv` file that was created at the end of the data cleaning process. Population-wide totals were obtained from the 2016, available in the [Statistics Canada Website](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/Page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=&Code2=&Data=Count&SearchText=Ontario&Sear).
+This document provides details on assessing the socio-economic information from the clean survey dataset, and how it compared to the Census Data for ontario. At the end, it also provides information about the corrections implemented into the data. The variables examined were: race/ethnicity, age groups, income, and population by Health Region. Population-wide totals were obtained from the 2016, available in the [Statistics Canada Website](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/Page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=&Code2=&Data=Count&SearchText=Ontario&Sear).
 
 # Race and Ethnicity
 
@@ -87,7 +87,7 @@ t6
 
 It is important to mention that the categories for race/ethnicity provided in the survey did not match the categories used in the Census. Therefore, we used a combination of sources to obtain estimates of racial/ethnic distribution that matched the categories from the survey.The data sources were:
 
-- Fact sheet from the Provice of Ontario for Visible Minorities [link](https://www.ontario.ca/document/2016-census-highlights/fact-sheet-9-ethnic-origin-and-visible-minorities): Used to obtain percentages for Arab, Black, East Asian/Pacific Islander (adding Chinese, Korean, and Japanese percentages), Latin American, Mixed (using the percentage for "multiple visible minority"), Other (obtained by adding the Southeast Asian, Filipino, West Asian, and Minority not identified elsewhere percentages), South Asian. _Accessed on January 05, 2022_
+- Fact sheet from the Provice of Ontario for Visible Minorities [link](https://www.ontario.ca/document/2016-census-highlights/fact-sheet-9-ethnic-origin-and-visible-minorities): Used to obtain percentages for Arab, Black, East Asian/Pacific Islander (adding Chinese, Korean, and Japanese percentages), Latin American, Mixed (using the percentage for "multiple visible minority"), Other (obtained by adding the Southeast Asian, Filipino, West Asian, and Minority not identified elsewhere percentages), South Asian _Accessed on January 05, 2022_.
 
 - Census Profile for Ontario [link](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=PR&Code2=01&SearchText=Ontario&SearchType=Begins&SearchPR=01&B1=Aboriginal%20peoples&TABID=1&type=1): Used to obtain percentage of Aboriginal population. _Accessed on January 05, 2022_
 

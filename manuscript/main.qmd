@@ -69,29 +69,28 @@ library(patchwork)
 ```
 
 
+```{r} 
+#| child: sections/01-background.qmd
+```
+
 
 ```{r} 
-#| child: 01-background.qmd
-```
-
-
-```{r} 
-#| child: 02-methods.qmd
+#| child: sections/02-methods.qmd
 ```
 
 
 ```{r}
-#| child: 03-results.qmd
+#| child: sections/03-results.qmd
 ```
 
 
 ```{r}
-#| child: 04-discussion.qmd
+#| child: sections/04-discussion.qmd
 ```
 
 
 ```{r}
-#| child: 05-conclusion.qmd
+#| child: sections/05-conclusion.qmd
 ```
 
 # Acknowledgments

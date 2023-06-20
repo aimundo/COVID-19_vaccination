@@ -2,9 +2,9 @@
 ## Upated on May 8, 2023
 
 rawdata<-read.csv(here("data","Fields_data.csv"),na.strings = c(""))
-#clean_data <-read.csv(here("data","clean_dataset.csv"))
 
-## select the variables used in the analysis
+
+## select the variables to be used in the analysis
 
 ## household income
 ## race
@@ -16,27 +16,15 @@ rawdata<-read.csv(here("data","Fields_data.csv"),na.strings = c(""))
 rawdata <- rawdata %>%
   select(age,age_group,q09_hh_income,q16_race,city,q02_first_dose,complete,time_date_code,q13_hh_size)
 
-#miss_raw<-miss_var_summary(rawdata, show_pct = TRUE)
-
-## summary of missing data in the raw dataset
-
-# miss_raw %>%
-#   kableExtra::kbl() %>%
-#   kableExtra::kable_styling()
 
 # rates: first dose 
 
-# The dataset had a column called "complete". The data dictionary was not
-# clear about what this meant, it seems that observations that are "complete" 
-# have complete observations for vaccination status, and all other covariates, except race, with a 4%
-# of missing obs.
+# The dataset has a column called "complete". Observations that are "complete" 
+# have complete observations for vaccination status, and the covariates selected above (except race, with a 4%
+# of missing observations).
 
 clean_data<-rawdata %>%
   subset(complete=="complete") 
-
-# miss_var_summary(clean_data,show_pct=TRUE) %>%
-#   kableExtra::kbl() %>%
-#   kableExtra::kable_styling()
 
 # remove cities entered as "None"
 

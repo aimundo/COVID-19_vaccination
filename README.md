@@ -21,7 +21,7 @@ The repository contains different directories that work in conjunction to create
 
 ## Code
 
-The directory `code` contains the following scripts:
+The directory `code` contains scripts used to create the manuscript. All these files need the libraries that appear in the first chunk in `main.qmd` in the `manuscript` directory. Therefore if individual scripts need to be run, the required libraries need to be loaded first.
 
 - `data_reparation.R`: script to clean the data and prepare for analysis.
 - `raking.R`: script to correct the data using Census estimates.
@@ -40,6 +40,8 @@ This directory contains the data files used to create models, obtain geographica
 - `geographic_areas.csv`: Contains information for all the geographical areas of Ontario, indicating the type of area (County, Regional Municipality, District).
 - `Consolidated_LTC_dataset.csv`: Data from this website on Long-Term Care Homes for seniors in Ontario, from [this site](https://paulallen.ca/consolidated-dataset-of-ltc-homes-in-ontario/). This file was used to match each city from the Fields Survey to its corresponding Local Health Integration Network (LHIN).
 - `missing_health_regions_updated_May_05_2023.csv`: File created manually for those cities from the Fields Survey dataset that were not present in Long-Term Care Home dataset. Corresponding LHIN in each case was manually added.
+
+Additionally, the directory `map_data` can be found here, where shp files needed to create the map in the manuscript are to be placed (these files are not included because they are too large for the GitHub repository, but the script `map_June_01.R` in the `code` directory contains instructions on how to download and process the data to create the map. The map created by `map_June_01.R` is `map_June_01.pdf`, which is the only file present in the directory.
 
 ## Manuscript
 The different manuscript sections can be found in the `manuscript` directory, which contains:

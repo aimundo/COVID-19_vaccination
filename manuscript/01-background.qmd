@@ -1,4 +1,4 @@
-# Background
+# Introduction
 
 As of May of 2023, there have been 765 million confirmed cases of COVID-19 around the world, including 6.8 million deaths [@WHO-Covid]. Although this disease is no longer categorized as a global health emergency by the World Health Organization (WHO) [@rigby2023], there is ongoing concern due to continued transmission, the possibility of surges in cases and deaths due to new virus variants [@un2023], and ongoing issues in health systems around the world that could be exploited by a novel virus or another public health emergency in the future [@mackey2021].
 

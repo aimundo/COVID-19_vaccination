@@ -76,7 +76,7 @@ Finally, we identified significantly lower odds of vaccination in the Central, E
 
 # Keywords {-}
 
-Covid-19, vaccination, survey, socio-economic factors, visible minorities, race and ethnicity
+COVID-19, vaccination, survey, socio-economic factors, visible minorities, race and ethnicity
 
 ```{r setup, message = FALSE,include=FALSE}
 #the packages needed to run the code

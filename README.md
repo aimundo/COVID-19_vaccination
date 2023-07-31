@@ -52,6 +52,9 @@ The different manuscript sections can be found in the `manuscript` directory, wh
 - `04-discussion.qmd`: discussion.
 - `05-conclusion.Rmd`: conclusion to the manuscript.
 
+This directory also contains sub-directories `references` (for the references used in the main manuscript), and `latex` (which contains files required for LaTeX compilation).
+
+
 
 # Instructions
 
@@ -68,10 +71,6 @@ Although individual code chunks can be run, it is advised to first generate a do
 This work has an Appendix, which can be re-created by knitting the file `appendix.qmd`, which can be found in the `manuscript` directory. 
 
 The appendix is a stand-alone document that can be compiled independently from the main manuscript. In this way, the reader chooses the section of interest and can examine and run the code independently.
-
-
-
-The repository also contains directories `references` for the references used in the main manuscript, and `latex` which contains files required for LaTeX compilation.
 
 # License
 

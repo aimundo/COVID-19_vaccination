@@ -4,12 +4,12 @@ Socio-demographic determinants of COVID-19 vaccine uptake in Ontario: Exploring 
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/) [![License: CC0-1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 
-
-This repository contains all the code and data used to create the manuscript, which is available as a preprint here. This paper explores COVID-19 vaccination in the Health Regions of the province of Ontario, Canada.
+This repository contains files used to create the manuscript, which is available as a preprint here. This paper explores COVID-19 vaccination in the Health Regions of the province of Ontario, Canada.
 
 # How to use this repository
 
-The best way to reproduce the paper and its results is to fork this repository and follow the instructions below.
+$\color{red}{\textnormal{IMPORTANT}}$: The original dataset (the _Survey of COVID-19 related Behaviours and Attitudes_ dataset) is necessary to recreate the results, tables, and figures included in this paper. The Fields Institue has requested that the file is not to be publicly shared and therefore, anyone interested in obtaining this dataset should contact the [Fields Institue](http://www.fields.utoronto.ca/people-and-contacts) directly to request access. Once obtained, the raw dataset file (in csv format) should be placed in the `data` directory in order for the scripts included in this repository to work. With the exception of the raw dataset, this, this repository currently contains all of the necessary files required to create the paper. Details for each directory are provided below.
+
 
 # Repository organization
 
@@ -33,8 +33,6 @@ The directory `code` contains scripts used to create the manuscript. All these f
 
 This directory contains the data files used to create models, obtain geographical information. The files in this directory are:
 
-- `FieldsBehaviouralSurveyRawDataV2V3.xlsx`: Raw data file file from the _Survey of COVID-19 related Behaviours and Attitudes_. This file includes a data dictionary for all the questions deployed in the survey.
-- `Fields_data.csv`: This is a csv file created from the file raw survey file, and that was used for analysis in the paper.
 - `municipalities_clean.csv`: File with the name of the majority of the municipalities in the raw datafile, along with their full title (e.g. Township, Municipality), and the geographical region the municipality belongs to (District, County, etc).
 - `missing_municipalities_updated_May_05_2023.csv`: this file has the municipalities that were missing from `municipalities_clean.csv` and that were in the survey dataset,  with the information in each case manually added so all the cities analyzed could be placed within their corresponding Health Region.
 - `geographic_areas.csv`: Contains information for all the geographical areas of Ontario, indicating the type of area (County, Regional Municipality, District).

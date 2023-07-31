@@ -50,6 +50,8 @@ The different manuscript sections can be found in the `manuscript` directory, wh
 - `04-discussion.qmd`: discussion.
 - `05-conclusion.Rmd`: conclusion to the manuscript.
 
+  The PDF versions of the manuscript and the Appendix can be found in this directory as well, with names `main.pdf` and `appendix.pdf`, respectively.
+
 This directory also contains sub-directories `references` (for the references used in the main manuscript), and `latex` (which contains files required for LaTeX compilation).
 
 

@@ -8,7 +8,7 @@ This repository contains files used to create the manuscript, which is available
 
 # How to use this repository
 
-$\color{red}{\textnormal{IMPORTANT}}$: The original dataset (the _Survey of COVID-19 related Behaviours and Attitudes_ dataset) is necessary to recreate the results, tables, and figures included in this paper. The Fields Institute has requested that the file is not to be publicly shared and therefore, anyone interested in obtaining this dataset should contact the [Fields Institue](http://www.fields.utoronto.ca/people-and-contacts) directly to request access. Once obtained, the raw dataset file (in csv format) should be placed in the `data` directory in order for the scripts included in this repository to work. With the exception of the raw dataset, this, this repository currently contains all of the necessary files required to create the paper. Details for each directory are provided below.
+$\color{red}{\textnormal{IMPORTANT}}$: The original dataset (the _Survey of COVID-19 related Behaviours and Attitudes_ dataset) is necessary to recreate the results, tables, and figures included in this paper. The Fields Institute has requested that the file is not to be publicly shared and therefore, anyone interested in obtaining this dataset should contact the [Fields Institue](http://www.fields.utoronto.ca/people-and-contacts) directly to request access. Once obtained, the raw dataset file (in csv format) should be placed in the `data` directory in order for the scripts included in this repository to work. With the exception of the raw dataset, this repository currently contains all of the necessary files required to create the paper. Details for each directory are provided below.
 
 
 # Repository organization

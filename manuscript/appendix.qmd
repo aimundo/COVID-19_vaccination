@@ -62,12 +62,12 @@ thm4<-scale_fill_scico_d(palette="tokyo",begin=0.3, end=0.8, direction = -1, aes
 thm5<-scale_fill_scico_d(palette="imola",begin=0.3, end=0.8, direction = -1, aesthetics = c("colour","fill"))
 
 #call scripts for data preparation and regression
-source(here::here("code","data_preparation_May_08.R"))
+source(here::here("code","data_preparation.R"))
 source(here::here("code","raking.R"))
 source(here::here("code","regression.R"))
 ```
 
-This document provides details on assessing the socio-economic information from the clean survey dataset, and how it compared to the Census Data for ontario. At the end, it also provides information about the corrections implemented into the data. The variables examined were: race/ethnicity, age groups, income, and population by Health Region. The computations are performed in the `clean_dataset.csv` file that was created at the end of the data cleaning process. Population-wide totals were obtained from the 2016, available in the [Statistics Canada Website](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/Page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=&Code2=&Data=Count&SearchText=Ontario&Sear).
+This document provides details on assessing the socio-economic information from the clean survey dataset, and how it compared to the Census Data for ontario. At the end, it also provides information about the corrections implemented into the data. The variables examined were: race/ethnicity, age groups, income, and population by Health Region. Population-wide totals were obtained from the 2016, available in the [Statistics Canada Website](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/Page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=&Code2=&Data=Count&SearchText=Ontario&Sear).
 
 # Race and Ethnicity
 

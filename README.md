@@ -60,18 +60,18 @@ This work was created using R. Therefore, you need to install the latest version
 After installing R and RStudio, you need to install the {quarto} and {tinytex} (a LaTeX distribution) packages in order to be able to compile the manuscript in PDF. Instructions to install `quarto` can be found [here](https://quarto.org/docs/get-started/).<br>
 Instructions to install {tinytex} can be found [here](https://yihui.org/tinytex/). Note that you have to install the package and then run the command `install_tinytex()` to make it work.
 
-All the required libraries to run the code and create the manuscript can be found in the first code chunk in the file`main.qmd`,which calls all the files to generate the main manuscript). If using RStudio, the first time you open `main.qmd` you should automatically receive a warning about the missing packages that need to be installed; you can choose to install all the missing packages then.
+All the required libraries to run the code and create the manuscript can be found in the first code chunk in the file `main.qmd`,which calls all the files to generate the main manuscript). If using RStudio, the first time you open `main.qmd` you should automatically receive a warning about the missing packages that need to be installed; you can choose to install all the missing packages then.
 
 Although individual code chunks can be run, it is advised to first generate a document by knitting `main.qmd`. If individual chunks of code want to be examined, it is best to open the `.qmd` file of interest and see the code structure to the different functions scripts found in the `code` directory.
 
 
-This work has an appendix, which can be re-created by knitting the file `appendix.qmd`, which can be found in the `manuscript` directory. 
+This work has an Appendix, which can be re-created by knitting the file `appendix.qmd`, which can be found in the `manuscript` directory. 
 
 The appendix is a stand-alone document that can be compiled independently from the main manuscript. In this way, the reader chooses the section of interest and can examine and run the code independently.
 
 
 
-The repository also contains directories `references` for references used in the main manuscript, `latex` for LaTeX compilation.
+The repository also contains directories `references` for the references used in the main manuscript, and `latex` which contains files required for LaTeX compilation.
 
 # License
 

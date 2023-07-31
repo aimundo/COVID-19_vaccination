@@ -15,8 +15,6 @@ affiliations:
   - id: \*
     name: Corresponding author, \url{bouchra.nasri@umontreal.ca}
 format: 
-  docx:
-    reference-doc: custom-reference-doc.docx
   pdf:
     geometry:
       - top=20mm

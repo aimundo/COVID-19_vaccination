@@ -2,9 +2,9 @@
 title: '**Socio-demographic determinants of COVID-19 vaccine uptake in Ontario: Exploring differences across the Health Region model**'
 author:
   - name: Ariel Mundo Ortiz
-    affil-id: 1,2,3
+    #affil-id: 1,2,3
   - name: Bouchra Nasri
-    affil-id: 1,2,3,\*
+   # affil-id: 1,2,3,\*
 affiliations:
   - id: 1
     name: Centre de Recherches Mathématiques, University of Montreal, Montréal, Canada
@@ -14,7 +14,9 @@ affiliations:
     name: Centre de recherche en santé publique, University of Montréal, Montréal, Canada
   - id: \*
     name: Corresponding author, \url{bouchra.nasri@umontreal.ca}
-format: 
+format:
+  docx: 
+    reference-doc: custom-reference-doc.docx
   pdf:
     geometry:
       - top=20mm

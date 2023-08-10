@@ -2,9 +2,9 @@
 title: '**Socio-demographic determinants of COVID-19 vaccine uptake in Ontario: Exploring differences across the Health Region model**'
 author:
   - name: Ariel Mundo Ortiz
-    #affil-id: 1,2,3
+    affil-id: 1,2,3
   - name: Bouchra Nasri
-   # affil-id: 1,2,3,\*
+    affil-id: 1,2,3,\*
 affiliations:
   - id: 1
     name: Centre de Recherches Mathématiques, University of Montreal, Montréal, Canada
